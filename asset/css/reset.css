@@ -1,0 +1,156 @@
+/* 초기화 + 세팅 + 변수 */
+
+/* 초가화 */
+
+*{margin:0;padding:0;font:inherit;color:inherit;border: 0;box-sizing: border-box;}
+*, :after, :before {
+    box-sizing:border-box;
+    /*패딩 보더*/
+}
+html, body {overflow: auto;} 
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+fieldset, input{
+    border: 0;
+}
+ul{list-style: none;}
+
+body ::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+body ::-webkit-scrollbar-thumb{
+    border-radius: 2.5px;
+    background-color: rgba(0,0,0,.15);
+}
+body ::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+
+/* font */
+@font-face {
+    font-family: BM HANNA\ 11yrs old;
+    src: url(../fonts/BMHANNA_11yrs_ttf.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BM HANNA Pro;
+    src: url(../fonts/BMHANNAPro.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BM HANNA Air;
+    src: url(../fonts/BMHANNAAir_ttf.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BM Euljiro\ 10 years later;
+    src: url(../fonts/BMEuljiro10yearslater.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BM EULJIRO;
+    src: url(../fonts/BMEULJIROTTF.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BM KIRANGHAERANG;
+    src: url(../fonts/BMKIRANGHAERANG-TTF.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BM Kkubulim;
+    src: url(../fonts/BMKkubulimTTF.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: Noto Sans;
+    src: url(../fonts/NotoSans-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Noto Sans;
+    src: url(../fonts/NotoSans-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Noto Sans;
+    src: url(../fonts/NotoSans-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Noto Sans;
+    src: url(../fonts/NotoSans-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Noto Sans;
+    src: url(../fonts/NotoSans-Light.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(../fonts/NotoSans-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(../fonts/NotoSansKR-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(../fonts/NotoSansKR-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(../fonts/NotoSansKR-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Noto Sans KR;
+    src: url(../fonts/NotoSansKR-Light.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+} */
+
+html{
+    font-size: 16px;
+    line-height: 1.4;
+    word-break: keep-all;
+    -ms-scroll-chaining: none;
+    overscroll-behavior: none;
+    color: #232324;
+    /* font-family: Noto Sans,Noto Sans KR,sans-serif; */
+    font-family:  "Noto Sans","Noto Sans KR", sans-serif;
+    letter-spacing: -.02em;
+}

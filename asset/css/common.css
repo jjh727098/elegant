@@ -1,0 +1,26 @@
+/*
+
+공통
+
+*/
+.blind{
+    position: absolute;
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+svg{
+    display: inline-block;
+}
