@@ -920,9 +920,6 @@
     }
 }
 @media (max-width: 480px){
-    .group_menu{
-        display: block;
-    }
     .group_menu .menubottom_area{
         margin-top: 36px;
     }
