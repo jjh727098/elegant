@@ -920,9 +920,6 @@
     }
 }
 @media (max-width: 480px){
-    .group_menu .menubottom_area{
-        margin-top: 36px;
-    }
     .main_slide .swiper-slide .slide_descbox .slide_desc{
         font-size: 19px;
     }
