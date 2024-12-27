@@ -541,9 +541,6 @@
     display: none;
 }
 .group_menu{
-    display: flex;
-    flex-direction: column;
-
     z-index: 100;
     transform: translateX(100%);        
 
