@@ -556,6 +556,7 @@
     padding: 0 24px;
     background-color: #fff;
     transition: 0.5s;
+    overflow-y: scroll;
 }
 .group_menu.on{
     transform: translateX(0);
@@ -920,6 +921,10 @@
     }
 }
 @media (max-width: 480px){
+    .group_menu .menubottom_area{
+        margin-top: 36px;
+        margin-bottom: 23px;
+    }
     .main_slide .swiper-slide .slide_descbox .slide_desc{
         font-size: 19px;
     }
