@@ -30,7 +30,6 @@ $('.group_font').append(a);
 
 // 네비게이션
 $('.header_wrapper .gnb_item').hover(function(){
-  // console.log($(this).find('.depth2').length);
   if ($(this).find('.depth2').length) {
     $(this).find('.depth2').addClass('show');
     $('.header_wrapper').addClass('header-active');
@@ -38,7 +37,6 @@ $('.header_wrapper .gnb_item').hover(function(){
 },function(){
   $(this).find('.depth2').removeClass('show');
   $('.header_wrapper').removeClass('header-active');
-
 
   $('.header_wrapper .depth2_item a').removeClass('on');
   $('.header_wrapper .depth2 .depth2_item:first-child a').addClass('on');
@@ -50,12 +48,6 @@ $('#header .depth2 .depth2_item:first-child a').addClass('on');
 $('#header .depth2_item').hover(function(){
   $(this).siblings().find('a').removeClass('on')
   $(this).find('a').addClass('on')
-})
-
-
-// 슬라이드 버튼 클릭했을때 텍스트 이벤트
-$('.sc_visual .swiper-pagination-bullet').click(function(){
-  $('.slide_descbox').trigger('mouseup');
 })
 
 // 헤더 스크롤 고정
@@ -115,15 +107,3 @@ $('.menugnb_close').click(function(e){
       $(this).addClass('on').siblings('.depth2').stop().slideDown();
   }
 })
-
-
-// lottie를 활용한 애니메이션
-
-// var animation1 = bodymovin.loadAnimation({
-//   container: $('#slideMotion01')[0], // Required
-//   path: 'https://woowahan-cdn.woowahan.com/new_resources/image/banner/389b92788f7c4266b9c847ebabe509ed.json', // URL 직접 입력
-//   //path: 'data.json', // 실제 사용 폴더 지정 ex) data.json
-//   renderer: 'svg', // Required
-//   loop: false, // Optional
-//   autoplay: true // Optional
-// });
