@@ -224,7 +224,7 @@
 .sc_card .swiper-slide .link_card .card_desc{
     position: relative;
     display: -webkit-box;
-    height: 52px;
+    max-height: 52px;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
