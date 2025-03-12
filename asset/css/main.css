@@ -420,7 +420,7 @@
 
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.7142857143;
+    line-height: 1.7;
 }
 .sc_news .more_btn{
     display: flex;
@@ -742,18 +742,18 @@
     color: #a6a7a9;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: -.02em;
+    letter-spacing: -0.32px;
 }
 .group_menu .menubottom_area .menu_left .guide_list .guide_item{
     color: #a6a7a9;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: -.02em;
+    letter-spacing: -0.32px;
 }
 .group_menu .menubottom_area .menu_left .guide_list .guide_item a{
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: -.02em;
+    letter-spacing: -0.32px;
 }
 
 .group_menu .menubottom_area .menu_right .lang_area button{

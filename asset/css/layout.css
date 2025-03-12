@@ -60,7 +60,7 @@
     height: 100%;
 
     line-height: 1.75;
-    letter-spacing: -.02em;
+    letter-spacing: -0.32px;
     -webkit-box-align: start;
     align-items: flex-start;
     -webkit-box-pack: center;
@@ -98,7 +98,6 @@
     -webkit-transform: scale(.8);
     transform: scale(.8);
 }
-/* #header .gnb .gnb_list .gnb_item:hover .depth2_item:nth-child(1) a */
 .header_wrapper .gnb .gnb_list .gnb_item:hover > a
 {
     color: #232324;
@@ -226,7 +225,7 @@
 
 #footer{
     color: #37373a;
-    letter-spacing: -.02em;
+    letter-spacing: -0.32px;
     padding-top: 60px;
     padding-right: 24px;
     padding-bottom: 85px;
@@ -257,7 +256,7 @@
 #footer .footer_container .footer_gnb .gnb_list .depth2{
     color: #6c6d6f;
     font-size: 14px;
-    line-height: 1.7142857143;
+    line-height: 1.7;
 }
 #footer .footer_container .footer_gnb .gnb_list .depth2 .depth2_item{
     margin-top: 8px;
@@ -271,7 +270,7 @@
 #footer .footer_container .sitemap_list{
     color: #6c6d6f;
     font-size: 14px;
-    line-height: 1.7142857143;
+    line-height: 1.7;
 }
 #footer .footer_container .sitemap_list .sitemap_item{
     margin-top: 8px;
@@ -320,7 +319,7 @@
 #footer .footer_bottom .address_area address p span{
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.7142857143;
+    line-height: 1.7;
 }
 #footer .footer_bottom .address_area address p span:nth-child(1){
     position: relative;
